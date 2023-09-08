@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_tinted_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical|center_horizontal"
+        android:minHeight="@dimen/ms_item_height"
+        android:paddingStart="@dimen/ms_item_padding_left"
+        android:paddingRight="@dimen/ms_item_padding_left"
+        android:paddingVertical="15dp"
+        android:singleLine="true"
+        android:textColor="#333333"
+        android:textSize="12sp"
+        tools:text="" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F5F7F8"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="10dp"/>
+</RelativeLayout>
+
